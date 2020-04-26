@@ -5,7 +5,7 @@ version: "3"
 
 services:
   app:
-    container_name: top-moebel-app
+    container_name: shopware-app
     build:
       context: .
       dockerfile: .docker/app/Dockerfile
@@ -22,7 +22,7 @@ services:
       - ssldata:/etc/nginx/certs
 
   phpfpm:
-    container_name: top-moebel-php
+    container_name: shopware-php
     build:
       context: .
       dockerfile: .docker/phpfpm/Dockerfile
