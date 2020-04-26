@@ -1,0 +1,35 @@
+# Project files #
+######################
+# Projects should be handled in a separate GIT repository.
+src/*
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# IDE #
+######################
+.idea
+.vscode
