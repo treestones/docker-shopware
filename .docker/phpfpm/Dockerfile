@@ -1,5 +1,5 @@
 FROM php:7.3-fpm-buster
-MAINTAINER Mark Shust <mark@shust.com>
+MAINTAINER Simon Funk <simon.funk@treestones.ch>
 
 RUN apt-get update && apt-get install -y \
   cron \
